@@ -14,8 +14,8 @@ int main(void)
 		putchar(num);
 		num++;
 	}
-	num = 'A';
-	while (num <= 'F')
+	num = 'a';
+	while (num <= 'f')
 	{
 		putchar(num);
 		num++;
