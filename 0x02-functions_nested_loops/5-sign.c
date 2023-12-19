@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - function returns + or - operators or 0 when n is postive or negative or 0
+ * print_sign - function returns +, - or 0 when value is parse to n
  * @n: character for checking conditions
  * Return: 1 or -1 or 0
  */
