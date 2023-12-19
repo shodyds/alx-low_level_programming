@@ -4,7 +4,7 @@
  * jack_bauer - Function print every minute of the day
  * Return: void
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int a = '0', b, c, d;
 
