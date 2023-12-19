@@ -5,12 +5,13 @@
  * @n: character to be computed
  * Return: absolute value
  */
-int _abs(int n)
+int _abs(int a)
 {
-	if (n < 0)
+	if (a < 0)
 	{
-		n = n * -1;
-		return (n);
+		int abs_v;
+		abs_v = a * -1;
+		return (abs_v);
 	}
-	return (n);
+	return (a);
 }
