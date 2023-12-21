@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Mul - Function multiply to digit
+ * mul - Function multiply to digit
  * @a: First character to be computed
  * @b: second character to be computed
  * Return: return result
