@@ -13,4 +13,5 @@ void print_numbers(void)
 		putchar (c);
 		c++;
 	}
+	return (0);
 }
