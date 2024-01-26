@@ -4,14 +4,14 @@
 /**
  * sum_them_all - functions return sum of parameters
  * @n: number of parameter to add
+ * @...: a variable of parameter to calculate the function
+ * Return: sum of arguments
  */
 int sum_them_all(const unsigned int n, ...)
 {
-       	int i, sum = 0;
+       	unsigned int i, sum = 0;
 	va_list list;
 
-	if (n == 0)
-		return (0);
 	va_start(list, n);
 	i = 0;
 	while (i < n)
