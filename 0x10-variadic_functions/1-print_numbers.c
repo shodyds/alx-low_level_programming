@@ -4,27 +4,27 @@
 
 /**
  * print_numbers - Function print numbers
- * @seperator: character or value seperators
+ * @separator: character or value seperators
  * @n: number of characters
  * @... sequence of arguments
  * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-        unsigned int i;
-        va_list list;
+	unsigned int i;
+	va_list list;
 
 	va_start(list, n);
-        i = 0;
-        while (i < n)
-        {
-                printf("%d", va_arg(list, int));
-                if  (i != (n-1) && separator != NULL)
-                {
-                        printf("%s", separator);
-                }
+	i = 0;
+	while (i < n)
+	{
+		printf("%d", va_arg(list, int));
+		if  (i != (n-1) && separator != NULL)
+		{
+			printf("%s", separator);
+		}
 		i++;
-        }
+	}
 	printf("\n");
 	va_end(list);
 }
