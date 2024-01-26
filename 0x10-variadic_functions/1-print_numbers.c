@@ -23,5 +23,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
                 }
 		i++;
         }
+	_putchar('\n');
 	va_end(list);
 }
